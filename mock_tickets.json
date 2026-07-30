@@ -1,0 +1,902 @@
+[
+  {
+    "key": "OPS-201",
+    "summary": "Add rollback plan for Customer Portal deployment",
+    "type": "Story",
+    "status": "To Do",
+    "priority": "Highest",
+    "assignee": "K. Nguyen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 2,
+    "created": "2026-06-17",
+    "updated": "2026-06-18",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-06-18",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-202",
+    "summary": "Coordinate CAB approval for Ledger Engine production change",
+    "type": "Story",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 5,
+    "created": "2026-05-27",
+    "updated": "2026-05-30",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-05-30",
+        "text": "Rollback plan validated in staging environment."
+      }
+    ]
+  },
+  {
+    "key": "OPS-203",
+    "summary": "Update deployment runbook for Customer Portal go-live",
+    "type": "Change Request",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "L. Romano",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 1,
+    "created": "2026-05-07",
+    "updated": "2026-05-12",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-05-12",
+        "text": "Verified in production, metrics stable."
+      }
+    ]
+  },
+  {
+    "key": "OPS-204",
+    "summary": "Resolve SIT failure in Auth Service integration test suite",
+    "type": "Bug",
+    "status": "Blocked",
+    "priority": "Low",
+    "assignee": "L. Romano",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 3,
+    "created": "2026-06-15",
+    "updated": "2026-06-16",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-06-16",
+        "text": "Rollback plan needs revision before this can move to Ready for QA."
+      }
+    ]
+  },
+  {
+    "key": "OPS-205",
+    "summary": "Implement audit logging for Customer Portal per compliance requirement",
+    "type": "Bug",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "L. Romano",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 3,
+    "created": "2026-06-14",
+    "updated": "2026-06-24",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-06-24",
+        "text": "Deployed to production successfully, no incidents reported."
+      }
+    ]
+  },
+  {
+    "key": "OPS-206",
+    "summary": "Investigate CI/CD pipeline timeout during Payments Gateway build",
+    "type": "Change Request",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 2,
+    "created": "2026-05-26",
+    "updated": "2026-05-30",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-05-30",
+        "text": "Deployment runbook drafted and shared with ops team for review."
+      },
+      {
+        "author": "A. Whitfield",
+        "date": "2026-05-31",
+        "text": "Blocked by upstream dependency team; Kafka change not yet merged."
+      }
+    ]
+  },
+  {
+    "key": "OPS-207",
+    "summary": "Investigate CI/CD pipeline timeout during Reporting Service build",
+    "type": "Story",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 5,
+    "created": "2026-05-15",
+    "updated": "2026-05-17",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-05-17",
+        "text": "Stakeholder review completed, no blocking feedback."
+      }
+    ]
+  },
+  {
+    "key": "OPS-208",
+    "summary": "Implement SSO for Auth Service per compliance requirement",
+    "type": "Task",
+    "status": "To Do",
+    "priority": "Medium",
+    "assignee": "T. Fischer",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 1,
+    "created": "2026-06-05",
+    "updated": "2026-06-05",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-06-05",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-209",
+    "summary": "Implement regulatory reporting for Payments Gateway per compliance requirement",
+    "type": "Bug",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 8,
+    "created": "2026-06-02",
+    "updated": "2026-06-04",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-06-04",
+        "text": "Deployed to production successfully, no incidents reported."
+      }
+    ]
+  },
+  {
+    "key": "OPS-210",
+    "summary": "Investigate CI/CD pipeline timeout during Reporting Service build",
+    "type": "Story",
+    "status": "In Progress",
+    "priority": "Highest",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 1,
+    "created": "2026-06-26",
+    "updated": "2026-06-30",
+    "comments": [
+      {
+        "author": "K. Nguyen",
+        "date": "2026-06-30",
+        "text": "SIT passed, moving to regression testing."
+      }
+    ]
+  },
+  {
+    "key": "OPS-211",
+    "summary": "Implement real-time notifications for Reporting Service per compliance requirement",
+    "type": "Bug",
+    "status": "To Do",
+    "priority": "Medium",
+    "assignee": "L. Romano",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 3,
+    "created": "2026-06-03",
+    "updated": "2026-06-12",
+    "comments": [
+      {
+        "author": "K. Nguyen",
+        "date": "2026-06-12",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-212",
+    "summary": "Update Loan Origination API to support new fraud scoring schema",
+    "type": "Story",
+    "status": "Done",
+    "priority": "Low",
+    "assignee": "T. Fischer",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 1,
+    "created": "2026-06-07",
+    "updated": "2026-06-15",
+    "comments": [
+      {
+        "author": "K. Nguyen",
+        "date": "2026-06-15",
+        "text": "Verified in production, metrics stable."
+      },
+      {
+        "author": "M. Chen",
+        "date": "2026-06-16",
+        "text": "Stakeholder review completed, no blocking feedback."
+      }
+    ]
+  },
+  {
+    "key": "OPS-213",
+    "summary": "Add rollback plan for Reporting Service deployment",
+    "type": "Change Request",
+    "status": "To Do",
+    "priority": "High",
+    "assignee": "R. Patel",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 5,
+    "created": "2026-06-16",
+    "updated": "2026-06-25",
+    "comments": [
+      {
+        "author": "A. Whitfield",
+        "date": "2026-06-25",
+        "text": "Ticket created, groomed for upcoming sprint."
+      },
+      {
+        "author": "A. Whitfield",
+        "date": "2026-06-26",
+        "text": "Dependent ticket OPS-173 not yet resolved, blocking integration testing."
+      }
+    ]
+  },
+  {
+    "key": "OPS-214",
+    "summary": "Fix regression in Ledger Engine caused by upstream network firewall change",
+    "type": "Change Request",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 3,
+    "created": "2026-05-04",
+    "updated": "2026-05-10",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-05-10",
+        "text": "Post-release review completed, closing ticket."
+      },
+      {
+        "author": "K. Nguyen",
+        "date": "2026-05-11",
+        "text": "Rollback plan needs revision before this can move to Ready for QA."
+      }
+    ]
+  },
+  {
+    "key": "OPS-215",
+    "summary": "Fix regression in Payments Gateway caused by upstream third-party vendor API change",
+    "type": "Bug",
+    "status": "Blocked",
+    "priority": "High",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.2",
+    "sprint": "Sprint 23",
+    "story_points": 5,
+    "created": "2026-05-04",
+    "updated": "2026-05-14",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-05-14",
+        "text": "Waiting on QA sign-off \u2014 regression suite still running, ETA end of day."
+      }
+    ]
+  },
+  {
+    "key": "OPS-216",
+    "summary": "Update deployment runbook for Loan Origination go-live",
+    "type": "Story",
+    "status": "Blocked",
+    "priority": "Medium",
+    "assignee": "M. Chen",
+    "release": "Release 3.1",
+    "sprint": "Sprint 22",
+    "story_points": 3,
+    "created": "2026-05-17",
+    "updated": "2026-05-24",
+    "comments": [
+      {
+        "author": "A. Whitfield",
+        "date": "2026-05-24",
+        "text": "Waiting on security review sign-off before production deployment."
+      },
+      {
+        "author": "S. Osei",
+        "date": "2026-05-25",
+        "text": "Stakeholder review completed, no blocking feedback."
+      }
+    ]
+  },
+  {
+    "key": "OPS-217",
+    "summary": "Update Auth Service API to support new real-time notifications schema",
+    "type": "Bug",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "K. Nguyen",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 8,
+    "created": "2026-06-02",
+    "updated": "2026-06-03",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-06-03",
+        "text": "Deployed to production successfully, no incidents reported."
+      }
+    ]
+  },
+  {
+    "key": "OPS-218",
+    "summary": "Refactor Reporting Service data layer for regulatory reporting tracking",
+    "type": "Task",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignee": "R. Patel",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 1,
+    "created": "2026-06-03",
+    "updated": "2026-06-08",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-06-08",
+        "text": "Deployment runbook drafted and shared with ops team for review."
+      },
+      {
+        "author": "L. Romano",
+        "date": "2026-06-09",
+        "text": "Smoke tests green in staging, monitoring for 24 hours before sign-off."
+      }
+    ]
+  },
+  {
+    "key": "OPS-219",
+    "summary": "Add rollback plan for Loan Origination deployment",
+    "type": "Task",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "M. Chen",
+    "release": "Release 3.2",
+    "sprint": "Sprint 23",
+    "story_points": 8,
+    "created": "2026-06-29",
+    "updated": "2026-07-04",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-07-04",
+        "text": "Deployed to production successfully, no incidents reported."
+      },
+      {
+        "author": "A. Whitfield",
+        "date": "2026-07-05",
+        "text": "Rollback plan needs revision before this can move to Ready for QA."
+      }
+    ]
+  },
+  {
+    "key": "OPS-220",
+    "summary": "Fix regression in Loan Origination caused by upstream Kafka change",
+    "type": "Task",
+    "status": "Ready for QA",
+    "priority": "High",
+    "assignee": "S. Osei",
+    "release": "Release 3.2",
+    "sprint": "Sprint 23",
+    "story_points": 8,
+    "created": "2026-06-17",
+    "updated": "2026-06-25",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-06-25",
+        "text": "Smoke tests green in staging, monitoring for 24 hours before sign-off."
+      }
+    ]
+  },
+  {
+    "key": "OPS-221",
+    "summary": "Update deployment runbook for Payments Gateway go-live",
+    "type": "Task",
+    "status": "Ready for QA",
+    "priority": "High",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 8,
+    "created": "2026-06-23",
+    "updated": "2026-06-27",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-06-27",
+        "text": "SIT passed, moving to regression testing."
+      }
+    ]
+  },
+  {
+    "key": "OPS-222",
+    "summary": "Add rollback plan for Payments Gateway deployment",
+    "type": "Story",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee": "M. Chen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 3,
+    "created": "2026-06-04",
+    "updated": "2026-06-04",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-06-04",
+        "text": "Rollback plan validated in staging environment."
+      }
+    ]
+  },
+  {
+    "key": "OPS-223",
+    "summary": "Refactor Customer Portal data layer for real-time notifications tracking",
+    "type": "Story",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "T. Fischer",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 5,
+    "created": "2026-06-17",
+    "updated": "2026-06-19",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-06-19",
+        "text": "Deployed to production successfully, no incidents reported."
+      }
+    ]
+  },
+  {
+    "key": "OPS-224",
+    "summary": "Update Ledger Engine API to support new fraud scoring schema",
+    "type": "Change Request",
+    "status": "To Do",
+    "priority": "High",
+    "assignee": "K. Nguyen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 2,
+    "created": "2026-06-24",
+    "updated": "2026-07-01",
+    "comments": [
+      {
+        "author": "K. Nguyen",
+        "date": "2026-07-01",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-225",
+    "summary": "Investigate CI/CD pipeline timeout during Customer Portal build",
+    "type": "Story",
+    "status": "Done",
+    "priority": "Low",
+    "assignee": "S. Osei",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 2,
+    "created": "2026-06-11",
+    "updated": "2026-06-19",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-06-19",
+        "text": "Verified in production, metrics stable."
+      }
+    ]
+  },
+  {
+    "key": "OPS-226",
+    "summary": "Investigate CI/CD pipeline timeout during Auth Service build",
+    "type": "Story",
+    "status": "To Do",
+    "priority": "Medium",
+    "assignee": "M. Chen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 8,
+    "created": "2026-05-28",
+    "updated": "2026-06-06",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-06-06",
+        "text": "Ticket created, groomed for upcoming sprint."
+      },
+      {
+        "author": "K. Nguyen",
+        "date": "2026-06-07",
+        "text": "Rollback plan validated in staging environment."
+      }
+    ]
+  },
+  {
+    "key": "OPS-227",
+    "summary": "Refactor Payments Gateway data layer for regulatory reporting tracking",
+    "type": "Change Request",
+    "status": "To Do",
+    "priority": "High",
+    "assignee": "S. Osei",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 8,
+    "created": "2026-05-21",
+    "updated": "2026-05-31",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-05-31",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-228",
+    "summary": "Add rollback plan for Reporting Service deployment",
+    "type": "Task",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 2,
+    "created": "2026-06-09",
+    "updated": "2026-06-18",
+    "comments": [
+      {
+        "author": "M. Chen",
+        "date": "2026-06-18",
+        "text": "Post-release review completed, closing ticket."
+      },
+      {
+        "author": "K. Nguyen",
+        "date": "2026-06-19",
+        "text": "Blocked by upstream dependency team; network firewall change not yet merged."
+      }
+    ]
+  },
+  {
+    "key": "OPS-229",
+    "summary": "Fix regression in Ledger Engine caused by upstream network firewall change",
+    "type": "Task",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee": "K. Nguyen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 2,
+    "created": "2026-05-19",
+    "updated": "2026-05-27",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-05-27",
+        "text": "Rollback plan validated in staging environment."
+      },
+      {
+        "author": "K. Nguyen",
+        "date": "2026-05-28",
+        "text": "Data validation failed in staging; schema mismatch found during UAT."
+      }
+    ]
+  },
+  {
+    "key": "OPS-230",
+    "summary": "Address smoke test failure on Reporting Service after Kafka patch",
+    "type": "Bug",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "M. Chen",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 1,
+    "created": "2026-05-27",
+    "updated": "2026-06-06",
+    "comments": [
+      {
+        "author": "L. Romano",
+        "date": "2026-06-06",
+        "text": "Deployed to production successfully, no incidents reported."
+      }
+    ]
+  },
+  {
+    "key": "OPS-231",
+    "summary": "Update Ledger Engine API to support new real-time notifications schema",
+    "type": "Task",
+    "status": "Done",
+    "priority": "Low",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.2",
+    "sprint": "Sprint 23",
+    "story_points": 8,
+    "created": "2026-06-05",
+    "updated": "2026-06-08",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-06-08",
+        "text": "Post-release review completed, closing ticket."
+      }
+    ]
+  },
+  {
+    "key": "OPS-232",
+    "summary": "Address smoke test failure on Auth Service after Oracle DB patch",
+    "type": "Change Request",
+    "status": "Blocked",
+    "priority": "Medium",
+    "assignee": "S. Osei",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 5,
+    "created": "2026-05-29",
+    "updated": "2026-06-02",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-06-02",
+        "text": "Rollback plan needs revision before this can move to Ready for QA."
+      }
+    ]
+  },
+  {
+    "key": "OPS-233",
+    "summary": "Fix regression in Customer Portal caused by upstream third-party vendor API change",
+    "type": "Story",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "T. Fischer",
+    "release": "Release 3.1",
+    "sprint": "Sprint 22",
+    "story_points": 8,
+    "created": "2026-05-09",
+    "updated": "2026-05-11",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-05-11",
+        "text": "Post-release review completed, closing ticket."
+      }
+    ]
+  },
+  {
+    "key": "OPS-234",
+    "summary": "Update Reporting Service API to support new SSO schema",
+    "type": "Task",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "L. Romano",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 8,
+    "created": "2026-06-24",
+    "updated": "2026-07-03",
+    "comments": [
+      {
+        "author": "M. Chen",
+        "date": "2026-07-03",
+        "text": "Post-release review completed, closing ticket."
+      }
+    ]
+  },
+  {
+    "key": "OPS-235",
+    "summary": "Update Customer Portal API to support new SSO schema",
+    "type": "Change Request",
+    "status": "To Do",
+    "priority": "Low",
+    "assignee": "M. Chen",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 5,
+    "created": "2026-05-25",
+    "updated": "2026-05-30",
+    "comments": [
+      {
+        "author": "L. Romano",
+        "date": "2026-05-30",
+        "text": "Ticket created, groomed for upcoming sprint."
+      }
+    ]
+  },
+  {
+    "key": "OPS-236",
+    "summary": "Add rollback plan for Reporting Service deployment",
+    "type": "Change Request",
+    "status": "To Do",
+    "priority": "High",
+    "assignee": "L. Romano",
+    "release": "Release 3.3",
+    "sprint": "Sprint 25",
+    "story_points": 3,
+    "created": "2026-05-04",
+    "updated": "2026-05-08",
+    "comments": [
+      {
+        "author": "T. Fischer",
+        "date": "2026-05-08",
+        "text": "Ticket created, groomed for upcoming sprint."
+      },
+      {
+        "author": "T. Fischer",
+        "date": "2026-05-09",
+        "text": "Waiting on QA sign-off \u2014 regression suite still running, ETA end of day."
+      }
+    ]
+  },
+  {
+    "key": "OPS-237",
+    "summary": "Resolve SIT failure in Auth Service integration test suite",
+    "type": "Bug",
+    "status": "Done",
+    "priority": "High",
+    "assignee": "M. Chen",
+    "release": "Release 3.1",
+    "sprint": "Sprint 22",
+    "story_points": 8,
+    "created": "2026-06-11",
+    "updated": "2026-06-12",
+    "comments": [
+      {
+        "author": "M. Chen",
+        "date": "2026-06-12",
+        "text": "Verified in production, metrics stable."
+      }
+    ]
+  },
+  {
+    "key": "OPS-238",
+    "summary": "Resolve SIT failure in Ledger Engine integration test suite",
+    "type": "Story",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "J. Alvarez",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 3,
+    "created": "2026-05-30",
+    "updated": "2026-06-03",
+    "comments": [
+      {
+        "author": "J. Alvarez",
+        "date": "2026-06-03",
+        "text": "Post-release review completed, closing ticket."
+      }
+    ]
+  },
+  {
+    "key": "OPS-239",
+    "summary": "Update deployment runbook for Auth Service go-live",
+    "type": "Task",
+    "status": "Blocked",
+    "priority": "Low",
+    "assignee": "R. Patel",
+    "release": "Release 3.1",
+    "sprint": "Sprint 21",
+    "story_points": 8,
+    "created": "2026-06-30",
+    "updated": "2026-07-03",
+    "comments": [
+      {
+        "author": "R. Patel",
+        "date": "2026-07-03",
+        "text": "Rollback plan needs revision before this can move to Ready for QA."
+      }
+    ]
+  },
+  {
+    "key": "OPS-240",
+    "summary": "Coordinate CAB approval for Ledger Engine production change",
+    "type": "Change Request",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "L. Romano",
+    "release": "Release 3.1",
+    "sprint": "Sprint 22",
+    "story_points": 2,
+    "created": "2026-06-11",
+    "updated": "2026-06-16",
+    "comments": [
+      {
+        "author": "A. Whitfield",
+        "date": "2026-06-16",
+        "text": "Post-release review completed, closing ticket."
+      },
+      {
+        "author": "T. Fischer",
+        "date": "2026-06-17",
+        "text": "Data validation failed in staging; schema mismatch found during UAT."
+      }
+    ]
+  },
+  {
+    "key": "OPS-241",
+    "summary": "Update deployment runbook for Auth Service go-live",
+    "type": "Story",
+    "status": "In Progress",
+    "priority": "High",
+    "assignee": "A. Whitfield",
+    "release": "Release 3.3",
+    "sprint": "Sprint 26",
+    "story_points": 2,
+    "created": "2026-06-22",
+    "updated": "2026-07-01",
+    "comments": [
+      {
+        "author": "K. Nguyen",
+        "date": "2026-07-01",
+        "text": "Smoke tests green in staging, monitoring for 24 hours before sign-off."
+      }
+    ]
+  },
+  {
+    "key": "OPS-242",
+    "summary": "Address smoke test failure on Reporting Service after Oracle DB patch",
+    "type": "Task",
+    "status": "Done",
+    "priority": "Medium",
+    "assignee": "K. Nguyen",
+    "release": "Release 3.2",
+    "sprint": "Sprint 24",
+    "story_points": 1,
+    "created": "2026-05-14",
+    "updated": "2026-05-19",
+    "comments": [
+      {
+        "author": "S. Osei",
+        "date": "2026-05-19",
+        "text": "Post-release review completed, closing ticket."
+      }
+    ]
+  }
+]

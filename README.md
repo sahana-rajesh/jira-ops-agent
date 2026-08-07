@@ -56,10 +56,6 @@ cp .env.example .env   # add your Anthropic API key, or skip to run in Demo Mode
 streamlit run app.py
 ```
 
-Get an Anthropic API key at https://console.anthropic.com. If you don't add
-one, the app automatically runs in **Demo Mode** with realistic
-pre-generated sample output — nothing breaks and nothing requires payment
-to try.
 
 ## Using real Jira/Confluence data (future enhancement)
 
